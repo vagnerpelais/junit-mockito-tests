@@ -1,7 +1,6 @@
 package com.vagnerbohm.junittests.service;
 
 import com.vagnerbohm.junittests.model.Car;
-import com.vagnerbohm.junittests.model.UsuarCarRepository;
 import com.vagnerbohm.junittests.repository.CarRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -12,12 +11,6 @@ import java.util.List;
 @RequiredArgsConstructor
 public class CarService {
     private final CarRepository carRepository;
-    private final UsuarCarRepository usuarCarRepository;
-
-
-    public List<Car> findAllCars() {
-        return this.usuarCarRepository.findAll();
-    }
 
     public List<Car> getAllCars() {
         return this.carRepository.getAllCars();
