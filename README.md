@@ -38,4 +38,4 @@ The project uses the following major dependencies:
 
 - `JUnit 5`: The latest version of the JUnit framework for unit testing.
 
-- `Mockito`: A powerful mocking framework for Java that simplifies unit testing.
+- `Mockito`: A powerful mocking framework for Java that simplifies unit testing.  
